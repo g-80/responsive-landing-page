@@ -10,3 +10,10 @@ The main aim of this project:
 - Improve CSS skills
 
 I might work on the other pages later and update the repo.
+
+credits:
+  - freepik - flaticon.com
+  - Gregor Cresnar@flaticon - flaticon.com
+  - Beqa Tefnadze - pexels.com
+  - Karolina Grabowska - pexels.com
+  - Polina Tankilevitch - pexels.com
