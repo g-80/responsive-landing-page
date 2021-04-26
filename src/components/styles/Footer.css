@@ -1,0 +1,49 @@
+.footer {
+  background-color: var(--colour-light-yellow);
+  color: var(--colour-darkest-yellow);
+  margin-top: 70px;
+  padding: 18px 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.footer > a {
+  align-self: center;
+  margin-bottom: 35px;
+}
+
+.footer > div {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.footer-sitemap {
+  font-size: 20px;
+  color: var(--colour-nav-links);
+}
+
+.footer-sitemap li {
+  margin: 7px 0;
+}
+
+.opening-times {
+  margin-bottom: 24px;
+}
+
+.phone-address-container {
+  margin: 0 !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 15%;
+  }
+
+  .footer > a {
+    align-self: flex-start;
+  }
+}

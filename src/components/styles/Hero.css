@@ -1,0 +1,80 @@
+.hero-container {
+  margin-top: 20vw;
+}
+
+.hero-single-circle {
+  position: absolute;
+  z-index: -2;
+  width: 37vw;
+  max-width: 500px;
+  left: 60%;
+  margin-top: 15%;
+}
+
+.hero-three-circles {
+  position: absolute;
+  z-index: -1;
+  width: 65vw;
+  max-width: 593px;
+  left: 8%;
+  margin-top: 4%;
+}
+
+.hero-three-circles ellipse {
+  stroke-width: 25;
+}
+
+.hero-image-container {
+  width: 83vw;
+  max-width: 746px;
+}
+
+.hero-text {
+  margin: 25px 18.6% 0;
+}
+
+.hero-heading {
+  margin-bottom: 23px;
+  line-height: 1.55;
+  font-size: min(10vw, 61px);
+}
+
+.hero-btn {
+  margin-top: 34px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-container {
+    flex-direction: row-reverse !important;
+    justify-content: space-around;
+    padding: 0 8%;
+    margin-top: 104px;
+  }
+
+  .hero-text {
+    margin: 0;
+    max-width: 507px;
+  }
+
+  .hero-image {
+    position: relative;
+  }
+
+  .hero-image-container {
+    width: 40vw;
+  }
+
+  .hero-single-circle {
+    width: 23vw;
+    left: 62%;
+  }
+
+  .hero-three-circles {
+    width: 33vw;
+    left: 3%;
+  }
+
+  .hero-btn {
+    align-self: flex-start;
+  }
+}

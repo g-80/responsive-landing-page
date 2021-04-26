@@ -1,0 +1,29 @@
+.reserve-container {
+  margin-top: 40px;
+  padding: 0 20% 0;
+}
+
+.reserve-container h3 {
+  margin-bottom: 20px;
+}
+
+.reserve-container p {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .reserve-container {
+    flex-direction: row !important;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
+
+  .reserve-container > div {
+    align-items: flex-start;
+    width: 55%;
+  }
+
+  .reserve-container p {
+    max-width: 514px;
+  }
+}
